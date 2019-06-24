@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <group android:id="@+id/g2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/add_intern"
+            android:title="add_intern">
+        </item>
+
+        <item
+            android:id="@+id/report"
+            android:title="Report">
+        </item>
+
+        <item
+            android:id="@+id/mentor"
+            android:title="Add Mentor">
+        </item>
+
+        <item
+            android:id="@+id/view_mentor"
+            android:title="View_Mentor">
+        </item>
+
+
+        <item android:id="@+id/view_intern"
+            android:title="View_intern_details"/>
+
+
+    </group>
+</menu>
